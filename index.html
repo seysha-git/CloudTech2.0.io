@@ -31,11 +31,11 @@
                     <ul class="nav-list">
                         <li><a href="./Pages/WhyCloud.html"> <i class="fas fa-cloud" style="color: #6C7EFF"></i><span style="color: #6C7EFF; font-weight: 900;" id="nav-link">The Cloud</span></a></li>
                         <li><a href="./Pages/WhyCloud.html">  <i class="fas fa-question-circle" style="color: #6C7EFF"></i> <span id="nav-link">Why Cloud</span></a></li>
-                        <li><a href="#" ><i class="fas fa-chart-line" style="color: #6C7EFF"> </i> <span id="nav-link">Cloud Trends</span>    <i class="fas fa-angle-down" id="arrow"></i></a>
+                        <li><a href="#" ><i class="fas fa-chart-line" style="color: #6C7EFF"> </i> <span id="nav-link">Cloud Trends</span>    <i class="fas fa-angle-down" id="arrow" onclick="changeicon(this)"></i></a>
                             <ul class="sub-links">
-                                <li id="sub-link"><a href="#">AI & ML</a></li>
-                                <li id="sub-link"><a href="#" >Internett of Things</a></li>
-                                <li id="sub-link"><a href="#">Quantum Computing</a></li>
+                                <li id="sub-link"><a href="./Pages/WhyCloud.html#AI">AI & ML</a></li>
+                                <li id="sub-link"><a href="./Pages/WhyCloud.html#IoT" >Internett of Things</a></li>
+                                <li id="sub-link"><a href="./Pages/WhyCloud.html#QC">Quantum Computing</a></li>
                             </ul>
                         </li>
                         <li><a href="./Pages/WhyCloud.html"><i class="fas fa-code" style="color: #6C7EFF"></i><span id="nav-link">Test Yourself</span></a></li>
@@ -46,7 +46,7 @@
 
     <main>
         <div class="main-img">
-             <img src="./Images/Main.svg" height="480px" width="480px"/>
+             <img src="./Images/Main.svg" id="front-img"/>
         </div>
         <div class="main-text">
             <h1>Cloud Technology</h1>
@@ -95,7 +95,7 @@
                 <p>Amazon's launch of Elastic Compute Cloud (EC2) in 2006 marked the advent of cloud computing, enabling businesses to rent virtual servers. Google and Microsoft soon followed, and now cloud computing is widely used by businesses of all sizes.</p>
             </div>
             <div class="article-img">
-                <img src="./Images/Cloud.svg"  id="main-img"/>
+                <img src="./Images/Cloud.svg" id="main-img"/>
             </div>
         </div>
         <div class="article-section">
@@ -117,7 +117,7 @@
             </div>
             <div class="sources footer-text">
                 <h1>Sources</h1>
-                <ul>
+                <ul class="footer-links">
                     <li><a href="#">https://ontech.com/what-is-the-cloud/</a></li>
                     <li><a href="#">https://aws.amazon.com/what-is-cloud-computing/</a></li>
                     <li><a href="#">https://courses.kevinpowell.co/</a></li>
@@ -125,7 +125,7 @@
             </div>
             <div class="tools footer-text">
                 <h1>Tools</h1>
-                <ul>
+                <ul class="footer-links">
                     <li><a href="#">https://code.visualstudio.com/</a></li>
                     <li><a href="#">https://www.figma.com/?fuid=893157348362388932</a></li>
                 </ul>
