@@ -174,6 +174,7 @@ article{
     border: 0.1px solid rgb(196, 222, 236);
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 .first{
     background-color: #E2EEF7;
