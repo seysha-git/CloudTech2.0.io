@@ -7,17 +7,108 @@
     <title>Document</title>
     <link rel="stylesheet" href="../Styling/WhyCloud.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/841ef1522c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 </head>
 <body>
     <nav>
         <div class="nav-logo">
-            <a href="../index.html" >SS</a>
+            <a href="../index.html">SS</a>
         </div>
         <div class= "nav-menu">
             <i class="fas fa-bars fa-2x"></i>
         </div>
+         <div class="menu-block">
+                <div class="block-header">
+                    <div class="block-logo">SS</div>
+                    <div class="block-menu cross"><i class="fas fa-times fa-2x" id="cross"></i></div>
+                </div>
+                <div class="block-title">
+                    <h4>Your Guide to Understanding the Cloud</h4>
+                    <hr id="underline1">
+                </div>
+                <div class="nav-links">
+                    <ul class="nav-list">
+                        <li><a href="../index.html"> <i class="fas fa-cloud" style="color: #6C7EFF"></i><span style="color: #6C7EFF; font-weight: 900;" id="nav-link">The Cloud</span></a></li>
+                        <li><a href="./Pages/WhyCloud.html">  <i class="fas fa-question-circle" style="color: #6C7EFF"></i> <span id="nav-link">Why Cloud</span></a></li>
+                        <li><a href="#" ><i class="fas fa-chart-line" style="color: #6C7EFF"> </i> <span id="nav-link">Cloud Trends</span>    <i class="fas fa-angle-down" id="arrow" onclick="changeicon(this)"></i></a>
+                            <ul class="sub-links">
+                                <li id="sub-link"><a href="./Pages/WhyCloud.html">AI & ML</a></li>
+                                <li id="sub-link"><a href="./Pages/WhyCloud.html">Internett of Things</a></li>
+                                <li id="sub-link"><a href="./Pages/WhyCloud.html">Quantum Computing</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./Pages/WhyCloud.html"><i class="fas fa-code" style="color: #6C7EFF"></i><span id="nav-link">Test Yourself</span></a></li>
+                    </ul>
+                </div>
+        </div>
     </nav>
-    
+
+    <main>
+        <div class="main-text">
+            <h1>The future of Cloud</h1>
+            <p>A Look at the Latest Trends and Advancements in Cloud Technology</p>
+        </div>
+        <div class="main-img">
+            <img src="../Images/undraw_investing_re_bov7.svg" id="main-img"/>
+       </div>
+    </main>¨
+    <article class="first" id="AI">
+        <div class="firstText text">
+            <h2>AI & ML</h2>
+            <hr id="aLine">
+            <p>The cloud is vital for AI and ML, providing access to data, computing power and algorithms. This enables organizations to leverage these technologies easily and cost-effectively. Despite privacy and security concerns and a lack of standardization, the benefits of cloud computing for AI and ML are undeniable and growth in this field is expected to continue.
+            </p>
+        </div>
+        <div class="first aImage">
+            <img src="../Images/AI.svg" id="article-img"/>
+        </div>
+    </article>
+    <article class="second" id="IoT">
+        <div class="secondText text">
+            <h2>Internett of Things</h2>
+            <hr id="aLine">
+            <p>The cloud is vital for AI and ML, providing access to data, computing power and algorithms. This enables organizations to leverage these technologies easily and cost-effectively. Despite privacy and security concerns and a lack of standardization, the benefits of cloud computing for AI and ML are undeniable and growth in this field is expected to continue.
+            </p>
+        </div>
+        <div class="second aImage">
+            <img src="../Images/undraw_data_re_80ws.svg" id="article-img"/>
+        </div>
+    </article>
+    <article class="third" id="QC">
+        <div class="thirdText text">
+            <h2>Quantum Computing</h2>
+            <hr id="aLine">
+            <p>The cloud is vital for AI and ML, providing access to data, computing power and algorithms. This enables organizations to leverage these technologies easily and cost-effectively. Despite privacy and security concerns and a lack of standardization, the benefits of cloud computing for AI and ML are undeniable and growth in this field is expected to continue.
+            </p>
+        </div>
+        <div class="third aImage">
+            <img src="../Images/undraw_programming_re_kg9v.svg" id="article-img"/>
+        </div>
+    </article>  
+    <footer>
+        <div class="footer-section">
+            <div class="aboutMe footer-text">
+                <h1>About me</h1>
+                <p>Web developer with a passion for creating innovative, user-friendly websites. Web developer with a passion for creating innovative, user-friendly websites. </p>
+            </div>
+            <div class="sources footer-text">
+                <h1>Sources</h1>
+                <ul class="footer-links">
+                    <li><a href="#">https://ontech.com/what-is-the-cloud/</a></li>
+                    <li><a href="#">https://aws.amazon.com/what-is-cloud-computing/</a></li>
+                    <li><a href="#">https://courses.kevinpowell.co/</a></li>
+                </ul>
+            </div>
+            <div class="tools footer-text">
+                <h1>Tools</h1>
+                <ul class="footer-links">
+                    <li><a href="#">https://code.visualstudio.com/</a></li>
+                    <li><a href="#">https://www.figma.com/?fuid=893157348362388932</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../Funcitonality/Navigation.js"></script>
 </body>
 </html>
